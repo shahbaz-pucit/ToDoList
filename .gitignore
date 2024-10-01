@@ -1,0 +1,82 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Vite build output
+dist/
+*.local
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+.vscode/
+
+# TypeScript build outputs
+*.tsbuildinfo
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Optional eslint cache
+.eslintcache
+
+# Optional Stylelint cache
+.stylelintcache
+
+# Testing output
+coverage/
+*.lcov
+
+# GitHub Actions
+.github/
+
+# IDE files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Mac OS files
+.DS_Store
+
+# Env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+# Editor directories and files
+.vscode/
+*.swp
+*~
+
+# Parcel cache
+.cache/
+
+# NPM local development
+.npm/
+
+# Vitest
+.vitest/
+
+# Storybook build directory
+.storybook/
+.out/
